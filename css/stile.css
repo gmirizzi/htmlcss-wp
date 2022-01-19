@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #container {
@@ -9,9 +10,19 @@
     margin: 15px auto;
 }
 
-#container > header {
-    height: 100px;
-    background-color: violet;
+header img {
+    height: 4em;
+    width: auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+li {
+    display: inline-block;
+    color: gray;
+    margin-right: .5em;
 }
 
 main div:first-child {
