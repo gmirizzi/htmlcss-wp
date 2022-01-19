@@ -59,6 +59,10 @@ li {
     height: 15%;
 }
 
+#maincontainer header div {
+    color: gray;
+}
+
 #maincontainer div {
     height: calc(85% - 15px *2);
     float: left;
