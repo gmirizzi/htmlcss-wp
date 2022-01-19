@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+#container > header {
+    height: 100px;
+    background-color: violet;
+}
+
+main div:first-child {
+    height: 400px;
+    background-color: khaki;
+    margin: 15px auto;
+}
+
+#maincontainer {
+    height: 420px;
+    background-color: dodgerblue;
+}
+
+#maincontainer header {
+    height: 15%;
+}
+
+#maincontainer div {
+    height: calc(85% - 15px *2);
+    float: left;
+}
+
+#maincontainer > * {
+    background-color: skyblue;
+    margin-bottom: 15px;
+}
+
+#center {
+    width:calc(100% - 15% * 2 - 30px);
+    margin: 0 15px;
+}
+
+.side {
+    width: 15%;
+}
+
+footer {
+    height: 30px;
+    background-color: purple;
+    margin-top: 5px;
+}
