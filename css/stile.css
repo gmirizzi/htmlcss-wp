@@ -25,10 +25,29 @@ li {
     margin-right: .5em;
 }
 
-main div:first-child {
+#banner {
     height: 400px;
-    background-color: khaki;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), 
+                url('../img/banner.jpg');
+    background-position: center;
     margin: 15px auto;
+    border-radius: 5px;
+    color: white;
+    position:relative;
+}
+
+#textarea {
+    height: 30%;
+    width: 55%;
+    position:absolute;
+    left: 5%;
+    bottom:10%;
+    overflow: hidden;
+}
+
+#textarea h2 {
+    font-weight: normal;
+    font-size: 2em;
 }
 
 #maincontainer {
